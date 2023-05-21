@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/5abee994-2d71-40a3-a364-f87ed24cb6c3/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/MuscalBox",
+    "appService.deploySubpath": "."
+}
