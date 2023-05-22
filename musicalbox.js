@@ -1,9 +1,12 @@
-const links = document.querySelectorAll('#playlist a');
+const doc = document;
+const playlist = doc.querySelector('#playlist');
+const links = playlist.querySelectorAll('a');
+const audio = doc.querySelector('audio');
 
-links.forEach(links => {
-  links.addEventListener('click', function(e) {
+links.forEach(link => {
+  link.addEventListener('click', function(e) {
     e.preventDefault();
     audio.src = this.dataset.src;
-    audio.play(links);
+    audio.play();
   });
 });
