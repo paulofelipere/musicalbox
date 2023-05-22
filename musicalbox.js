@@ -1,4 +1,3 @@
-
 const links = document.querySelectorAll('#playlist a');
 
 links.forEach(link => {
