@@ -1,4 +1,4 @@
-const doc = document/.music;
+const doc = document/.music,
 const playlist = doc.querySelector('#playlist');
 const links = playlist.querySelectorAll('a');
 const audio = doc.querySelector('audio');
